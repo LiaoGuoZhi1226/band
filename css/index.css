@@ -1,0 +1,19 @@
+.carousel-inner img {
+  height: 550px !important;
+}
+
+.navbar__bg--dark {
+  background-color: #000000 !important;
+}
+
+.card--shadow {
+  -webkit-box-shadow: 0 0 5px #3f3f3f !important;
+          box-shadow: 0 0 5px #3f3f3f !important;
+}
+
+@media (max-width: 414px) {
+  .banner__title {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

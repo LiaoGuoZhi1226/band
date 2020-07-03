@@ -1,0 +1,27 @@
+@mixin mobile{
+    @media (max-width:414px){
+        @content;
+    }
+}
+.carousel-inner img{
+    height: 550px !important;
+}
+
+.navbar__bg{
+    &--dark{
+        background-color: #000000 !important;
+    }
+}
+.card{
+    &--shadow{
+        box-shadow: 0 0 5px rgb(63, 63, 63) !important;
+    }
+}
+.banner{
+    &__title{
+        @include mobile{
+            font-size: 20px;
+        } 
+    }
+
+}
